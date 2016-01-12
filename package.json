@@ -1,0 +1,25 @@
+{
+  "name": "testApp",
+  "version": "1.0.0",
+  "description": "testApp: A megazord application",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "megazord-sdk": "git+ssh://git@github.com:SYNERGY-GB/megazord-sdk.git#1.2"
+  },
+  "cordovaPlugins": [
+    "com.ionic.keyboard",
+    "cordova-plugin-file"
+  ],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    },
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ]
+}
